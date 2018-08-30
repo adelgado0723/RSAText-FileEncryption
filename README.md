@@ -22,16 +22,16 @@ process with no straight-forward easy solution.
 
 ### Technologies and Concepts:
 	
-	- Java
-	- *Euclid's Algorithm* for finding GCD 
-	- *Chinese Remainder Theorem* for fast modular exponentiation
-	- Unique properties of prime numbers
+- Java
+- *Euclid's Algorithm* for finding GCD 
+- *Chinese Remainder Theorem* for fast modular exponentiation
+- Unique properties of prime numbers
 
 ---
 
 ## Menu
 
-![Menu](media/1_menu.png)
+![Menu](media/screenshots/1_menu.png)
 
 This is a menu-driven application that provides three services which carry out
 the ***RSA Cryptography Algorithm ***. The user can choose to:
@@ -55,7 +55,7 @@ the ***RSA Cryptography Algorithm ***. The user can choose to:
 
 In this example, the firt prime number provided was **9733**. The second prime number provided was **8081**. Using this information, the program generated the following keys:
 
-| **Encryption Keys**                          | **Decryption Keys**                         |
+| **Encryption Key**                           | **Decryption Key**                          |
 |----------------------------------------------|---------------------------------------------|
 | encryption exponent = 78652369, n = 78652373 | decryption exponent = 7175089, n = 78652373 |
 
