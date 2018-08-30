@@ -68,7 +68,7 @@ public class RSA {
 			encoded = modExponentiate(encoded, e, n);
 
 			longValues += encoded.toString() + " ";
-			System.out.println("Long Values-- " + message.charAt(i) + " = " + encoded + "  encoded = " + encoded);
+			// System.out.println("Long Values-- " + message.charAt(i) + " = " + encoded + "  encoded = " + encoded);
 
 		}
 		return longValues;
@@ -101,7 +101,7 @@ public class RSA {
 			// for fast modular exponentiation
 			decoded = modExponentiate(encryptedMessage.get(i), d, n);
 
-			System.out.print("Decoded Values-- " + encryptedMessage.get(i) + "  decoded = " + decoded + " \n");
+			// System.out.print("Decoded Values-- " + encryptedMessage.get(i) + "  decoded = " + decoded + " \n");
 
 			decrypted += (char) decoded.intValue();
 
